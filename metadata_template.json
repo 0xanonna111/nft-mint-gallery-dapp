@@ -1,0 +1,11 @@
+{
+  "name": "Art Piece #1",
+  "description": "This is a generative art piece.",
+  "image": "ipfs://QmYourImageHash",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Blue"
+    }
+  ]
+}
