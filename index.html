@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CryptoArt</div>
+        <button id="connectBtn">Connect Wallet</button>
+    </header>
+
+    <main>
+        <section class="mint-section">
+            <h1>Mint Your Masterpiece</h1>
+            <p>0.01 ETH per NFT</p>
+            <button id="mintBtn">Mint 1 NFT</button>
+            <p id="status"></p>
+        </section>
+
+        <hr>
+
+        <section class="gallery-section">
+            <h2>Your Collection</h2>
+            <div id="galleryGrid" class="grid">
+                <p class="placeholder">Connect wallet to see your NFTs</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
